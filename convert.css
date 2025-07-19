@@ -1,0 +1,103 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: burlywood;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.amount p, .from p, .to p {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.amount input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.select-container img {
+  width: 30px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.select-container select {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+}
+
+.fa-arrow-right-arrow-left {
+  font-size: 20px;
+  color: #555;
+}
+
+.msg {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #0072ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #005ecb;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+}
